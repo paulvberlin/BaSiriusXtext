@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:properties="http://www.eclipse.org/sirius/properties/1.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="activity" version="12.0.0.2017041100">
+  <ownedViewpoints name="Activity" modelFileExtension="activity">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="activity" domainClass="activity::Activity" enablePopupBars="true">
+      <metamodel href="http://www.example.org/activity#/"/>
+      <layout xsi:type="description_1:CompositeLayout" direction="LeftToRight"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="InitialNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::InitialNode">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/InitialNode.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="FlowFinalNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::FlowFinalNode">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/FlowFinalNode.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ActivityFinalNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::ActivityFinalNode">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/ActivityFinalNode.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ForkNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::ForkNode">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/ForkNode.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="JoinNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::JoinNode">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/ForkNode.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="MergeNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::MergeNode">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/MergeNode.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="DecisionNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::DecisionNode">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/DecisionNode.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Object" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.3/@ownedTools[name='EditObjectNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.3/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::Object">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/Object.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="CentralBufferNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.3/@ownedTools[name='EditObjectNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.3/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::CentralBufferNode">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="aql:'Data\n' + self.name" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/Object.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="DataStoreNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.3/@ownedTools[name='EditObjectNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.3/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::DataStoreNode">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/Object.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="SendSignalAction" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='EditExecutableNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::SendSignalAction">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/SendSignalAction.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="AcceptTimeEventAction" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='EditExecutableNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::AcceptTimeEventAction">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/AcceptTimeEventAction.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="AcceptEventAction" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='EditExecutableNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::AcceptEventAction">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/AcceptEventAction.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Connector" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::Connector">
+          <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/Connector.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="ControlFlow" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.1/@ownedTools[name='EditFlow']" semanticCandidatesExpression="feature:edges" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.1/@ownedTools[name='OpenEmbeddedEditor']" sourceMapping="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='DecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='InitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='JoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='MergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='SendSignalAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubFlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubJoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubMergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubSendSignalAction']" targetMapping="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='DecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='FlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='JoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='MergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='SendSignalAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubMergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubJoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubInitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubSendSignalAction']" targetFinderExpression="feature:target" sourceFinderExpression="feature:source" domainClass="activity::ControlFlow" useDomainElement="true">
+          <style sizeComputationExpression="2" routingStyle="manhattan">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="service:ActivityEdge_getLabel()">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ObjectFlow" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.1/@ownedTools[name='EditFlow']" semanticCandidatesExpression="feature:edges" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.1/@ownedTools[name='OpenEmbeddedEditor']" sourceMapping="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='CentralBufferNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='DataStoreNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='DecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='FlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='InitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='JoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='MergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='Object'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='SendSignalAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubCentralBufferNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDataStoreNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubFlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubInitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubJoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubMergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubObject'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubSendSignalAction']" targetMapping="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='CentralBufferNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='DataStoreNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='FlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='DecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='InitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='JoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='MergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='Object'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='SendSignalAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubCentralBufferNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDataStoreNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubFlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubInitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubJoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubMergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubObject'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubSendSignalAction']" targetFinderExpression="feature:target" sourceFinderExpression="feature:source" domainClass="activity::ObjectFlow" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="service:ActivityEdge_getLabel()">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="PinFlow" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.1/@ownedTools[name='EditFlow']" semanticCandidatesExpression="feature:edges" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.1/@ownedTools[name='OpenEmbeddedEditor']" sourceMapping="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']/@borderedNodeMappings[name='OutputPin'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']/@borderedNodeMappings[name='InputPin']" targetMapping="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']/@borderedNodeMappings[name='InputPin'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']/@borderedNodeMappings[name='OutputPin']" targetFinderExpression="feature:target" sourceFinderExpression="feature:source" domainClass="activity::ObjectFlow" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="service:ActivityEdge_getLabel()">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="SubControlFlow" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.1/@ownedTools[name='OpenEmbeddedEditor']" sourceMapping="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubInitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubJoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubMergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubSendSignalAction']" targetMapping="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubFlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubJoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubMergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubSendSignalAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='DecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='FlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='JoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='MergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='SendSignalAction']" targetFinderExpression="feature:target" sourceFinderExpression="feature:source" domainClass="activity::ControlFlow" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="service:ActivityEdge_getLabel()">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="SubObjectFlow" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.1/@ownedTools[name='OpenEmbeddedEditor']" sourceMapping="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubCentralBufferNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDataStoreNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubFlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubInitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubJoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubMergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubObject'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubSendSignalAction']" targetMapping="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubCentralBufferNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDataStoreNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubFlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubInitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubJoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubMergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubObject'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubSendSignalAction']" targetFinderExpression="feature:target" sourceFinderExpression="feature:source" domainClass="activity::ObjectFlow" useDomainElement="true">
+          <style sizeComputationExpression="2" foldingStyle="TARGET">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="service:ActivityEdge_getLabel()">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="InterruptEdge" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.1/@ownedTools[name='OpenEmbeddedEditor']" sourceMapping="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubCentralBufferNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDataStoreNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubFlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubInitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubMergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubJoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubObject'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubSendSignalAction']" targetMapping="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']/@borderedNodeMappings[name='InputPin'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']/@borderedNodeMappings[name='OutputPin'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='CentralBufferNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='DataStoreNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='DecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='FlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='InitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='JoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='MergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='Object'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@edgeMappings[name='PinFlow'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='SendSignalAction']" targetFinderExpression="feature:target" sourceFinderExpression="feature:source" domainClass="activity::InterruptEdge" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <centerLabelStyleDescription labelSize="12" iconPath="/de.htw.activity.design/icons/InterruptEdge.gif">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="Action" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='EditExecutableNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::Action">
+          <borderedNodeMappings name="InputPin" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.4/@ownedTools[name='EditPin']" semanticCandidatesExpression="feature:eAllContents" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.4/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::InputPin">
+            <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" labelAlignment="LEFT" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <forbiddenSides>SOUTH</forbiddenSides>
+              <forbiddenSides>EAST</forbiddenSides>
+              <forbiddenSides>NORTH</forbiddenSides>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+            <conditionnalStyles predicateExpression="aql:self.incoming->size()&lt;1">
+              <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+              </style>
+            </conditionnalStyles>
+          </borderedNodeMappings>
+          <borderedNodeMappings name="OutputPin" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.4/@ownedTools[name='EditPin']" semanticCandidatesExpression="feature:eAllContents" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.4/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::OutputPin">
+            <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" labelAlignment="LEFT" resizeKind="NSEW">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <forbiddenSides>WEST</forbiddenSides>
+              <forbiddenSides>SOUTH</forbiddenSides>
+              <forbiddenSides>NORTH</forbiddenSides>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+            <conditionnalStyles predicateExpression="aql:self.outgoing->size()&lt;1">
+              <style xsi:type="style:SquareDescription" labelSize="12" showIcon="false" labelExpression="" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+              </style>
+            </conditionnalStyles>
+          </borderedNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+          <conditionnalStyles predicateExpression="aql:self.outgoing->size()>1">
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="3" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" roundedCorner="true">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='dark_red']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_red']"/>
+            </style>
+          </conditionnalStyles>
+        </containerMappings>
+        <containerMappings name="InterruptibleActvityRegion" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.5/@ownedTools[name='EditInterruptRegion']" semanticCandidatesExpression="feature:activityGroups" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.5/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::InterruptibleActivityRegion">
+          <subNodeMappings name="SubInitialNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::InitialNode" reusedBorderedNodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='InitialNode']">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/InitialNode.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SubFlowFinalNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::FlowFinalNode">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/FlowFinalNode.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SubActivityFinalNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::ActivityFinalNode">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/ActivityFinalNode.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SubForkNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::ForkNode">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/ForkNode.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SubJoinNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::JoinNode">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/JoinNode.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SubMergeNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::MergeNode">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/MergeNode.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SubDecisionNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='EditControlNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.2/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::DecisionNode">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/DecisionNode.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SubSendSignalAction" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='EditExecutableNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::SendSignalAction">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/SendSignalAction.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SubAcceptTimeEventAction" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='EditExecutableNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::AcceptTimeEventAction">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/AcceptTimeEventAction.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SubAcceptEventAction" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='EditExecutableNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::AcceptEventAction">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/AcceptEventAction.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SubObject" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.3/@ownedTools[name='EditObjectNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.3/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::Object">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/Object.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SubCentralBufferNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.3/@ownedTools[name='EditObjectNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.3/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::CentralBufferNode">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/Object.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SubDataStoreNode" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.3/@ownedTools[name='EditObjectNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.3/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::DataStoreNode">
+            <style xsi:type="style:WorkspaceImageDescription" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/de.htw.activity.design/icons/Object.svg">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </style>
+          </subNodeMappings>
+          <subContainerMappings name="SubAction" labelDirectEdit="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='EditExecutableNode']" semanticCandidatesExpression="feature:nodes" doubleClickDescription="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@toolSections.0/@ownedTools[name='OpenEmbeddedEditor']" domainClass="activity::Action">
+            <borderedNodeMappings name="InputPin" semanticCandidatesExpression="feature:eAllContents" domainClass="activity::InputPin">
+              <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="service:ActivityNode_getLabel()" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </borderedNodeMappings>
+            <borderedNodeMappings name="OutputPin" semanticCandidatesExpression="feature:eAllContents" domainClass="activity::OutputPin">
+              <style xsi:type="style:SquareDescription" labelSize="12" labelExpression="service:ActivityNode_getLabel()" resizeKind="NSEW">
+                <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+                <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              </style>
+            </borderedNodeMappings>
+            <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1" labelSize="12" showIcon="false" labelExpression="service:ActivityNode_getLabel()" roundedCorner="true">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+              <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            </style>
+          </subContainerMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="3" borderLineStyle="dash" labelSize="12" showIcon="false" labelExpression="service:InterruptibleActivityRegion_getLabel()" labelAlignment="LEFT" roundedCorner="true">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelFormat>underline</labelFormat>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </containerMappings>
+        <toolSections name="Action">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Action" containerMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']" extraMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::Action" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="service:Action_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Send Signal" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='SendSignalAction']" extraMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::SendSignalAction" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="service:SendSignalAction_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Accept Event" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptEventAction']" extraMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::AcceptEventAction" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="service:AcceptEventAction_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Time Event" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptTimeEventAction']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::AcceptTimeEventAction" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="service:AcceptTimeEventAction_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditExecutableNode">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="OpenEmbeddedEditor" mappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='AcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubSendSignalAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='SendSignalAction']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ExternalJavaAction" name="OpenEmbeddedEditor" id="de.htw.activity.design.OpenEmbeddedEditor"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Edge">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Edge" edgeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@edgeMappings[name='ControlFlow'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@edgeMappings[name='ObjectFlow'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@edgeMappings[name='PinFlow']" iconPath="/de.htw.activity.design/icons/ControlFlow.gif" extraSourceMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubCentralBufferNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDataStoreNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubFlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubInitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubJoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubMergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubObject'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubSendSignalAction']" extraTargetMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubAcceptTimeEventAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubCentralBufferNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDataStoreNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubFlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubInitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubJoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubMergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubObject'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubSendSignalAction']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:Switch">
+                <cases conditionExpression="aql:source.eContainerOrSelf(activity::ObjectNode)">
+                  <subModelOperations xsi:type="tool_1:Switch">
+                    <cases conditionExpression="aql:target.eContainerOrSelf(activity::ObjectNode)">
+                      <subModelOperations xsi:type="tool_1:Switch">
+                        <cases conditionExpression="aql:source.eContainerOrSelf(activity::OutputPin)">
+                          <subModelOperations xsi:type="tool_1:If" conditionExpression="aql:target.eContainerOrSelf(activity::InputPin)">
+                            <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.eContainer().eContainer()/]">
+                              <subModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::ObjectFlow" referenceName="edges">
+                                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityEdge_generateDefaultQualifiedName()"/>
+                                <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                                <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                              </subModelOperations>
+                            </subModelOperations>
+                          </subModelOperations>
+                        </cases>
+                        <cases conditionExpression="aql:source.eContainerOrSelf(activity::InputPin)">
+                          <subModelOperations xsi:type="tool_1:If" conditionExpression="aql:target.eContainerOrSelf(activity::OutputPin)">
+                            <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.eContainer().eContainer()/]">
+                              <subModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::ObjectFlow" referenceName="edges">
+                                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityEdge_generateDefaultQualifiedName()"/>
+                                <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:target"/>
+                                <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:source"/>
+                              </subModelOperations>
+                            </subModelOperations>
+                          </subModelOperations>
+                        </cases>
+                        <default>
+                          <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer()/]">
+                            <subModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::ObjectFlow" referenceName="edges">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityEdge_generateDefaultQualifiedName()"/>
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                            </subModelOperations>
+                          </subModelOperations>
+                        </default>
+                      </subModelOperations>
+                    </cases>
+                    <cases conditionExpression="aql:target.eContainerOrSelf(activity::ControlNode)">
+                      <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer()/]">
+                        <subModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::ObjectFlow" referenceName="edges">
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityEdge_generateDefaultQualifiedName()"/>
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                        </subModelOperations>
+                      </subModelOperations>
+                    </cases>
+                    <cases conditionExpression="aql:target.eContainerOrSelf(activity::ExecutableNode)">
+                      <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer()/]">
+                        <subModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::ObjectFlow" referenceName="edges">
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityEdge_generateDefaultQualifiedName()"/>
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                        </subModelOperations>
+                      </subModelOperations>
+                    </cases>
+                  </subModelOperations>
+                </cases>
+                <cases conditionExpression="aql:source.eContainerOrSelf(activity::ControlNode)">
+                  <subModelOperations xsi:type="tool_1:Switch">
+                    <cases conditionExpression="aql:target.eContainerOrSelf(activity::ObjectNode)">
+                      <subModelOperations xsi:type="tool_1:Switch">
+                        <cases conditionExpression="aql:target.eContainerOrSelf(activity::Pin)"/>
+                        <default>
+                          <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer()/]">
+                            <subModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::ObjectFlow" referenceName="edges">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityEdge_generateDefaultQualifiedName()"/>
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                            </subModelOperations>
+                          </subModelOperations>
+                        </default>
+                      </subModelOperations>
+                    </cases>
+                    <cases conditionExpression="aql:target.eContainerOrSelf(activity::ControlNode)">
+                      <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer()/]">
+                        <subModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::ControlFlow" referenceName="edges">
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityEdge_generateDefaultQualifiedName()"/>
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                        </subModelOperations>
+                      </subModelOperations>
+                    </cases>
+                    <cases conditionExpression="aql:target.eContainerOrSelf(activity::ExecutableNode)">
+                      <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer()/]">
+                        <subModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::ControlFlow" referenceName="edges">
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityEdge_generateDefaultQualifiedName()"/>
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                        </subModelOperations>
+                      </subModelOperations>
+                    </cases>
+                  </subModelOperations>
+                </cases>
+                <cases conditionExpression="aql:source.eContainerOrSelf(activity::ExecutableNode)">
+                  <subModelOperations xsi:type="tool_1:Switch">
+                    <cases conditionExpression="aql:target.eContainerOrSelf(activity::ObjectNode)">
+                      <subModelOperations xsi:type="tool_1:Switch">
+                        <cases conditionExpression="aql:target.eContainerOrSelf(activity::Pin)"/>
+                        <default>
+                          <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer()/]">
+                            <subModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::ObjectFlow" referenceName="edges">
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityEdge_generateDefaultQualifiedName()"/>
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                              <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                            </subModelOperations>
+                          </subModelOperations>
+                        </default>
+                      </subModelOperations>
+                    </cases>
+                    <cases conditionExpression="aql:target.eContainerOrSelf(activity::ControlNode)">
+                      <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer()/]">
+                        <subModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::ControlFlow" referenceName="edges">
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityEdge_generateDefaultQualifiedName()"/>
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                        </subModelOperations>
+                      </subModelOperations>
+                    </cases>
+                    <cases conditionExpression="aql:target.eContainerOrSelf(activity::ExecutableNode)">
+                      <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer()/]">
+                        <subModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::ControlFlow" referenceName="edges">
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityEdge_generateDefaultQualifiedName()"/>
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                          <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                        </subModelOperations>
+                      </subModelOperations>
+                    </cases>
+                  </subModelOperations>
+                </cases>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Interrupt Edge" edgeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@edgeMappings[name='InterruptEdge']" iconPath="/de.htw.activity.design/icons/InterruptEdge.gif">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self.eContainer()/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::InterruptEdge" referenceName="edges">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityEdge_generateDefaultQualifiedName()"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="target" valueExpression="var:target"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="source" valueExpression="var:source"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditFlow">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="OpenEmbeddedEditor" mappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@edgeMappings[name='ControlFlow'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@edgeMappings[name='InterruptEdge'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@edgeMappings[name='ObjectFlow'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@edgeMappings[name='PinFlow'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@edgeMappings[name='SubControlFlow'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@edgeMappings[name='SubObjectFlow']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ExternalJavaAction" name="OpenEmbeddedEditor" id="de.htw.activity.design.OpenEmbeddedEditor"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Control Node">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Initial Node" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='InitialNode']" extraMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::InitialNode" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="service:InitialNode_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Flow Final Node" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='FlowFinalNode']" extraMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::FlowFinalNode" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="service:FlowFinalNode_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Activity Final Node" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ActivityFinalNode']" extraMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::ActivityFinalNode" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="service:ActivityFinalNode_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Fork Node" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ForkNode']" extraMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::ForkNode" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Join Node" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='JoinNode']" extraMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::JoinNode" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Merge Node" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='MergeNode']" extraMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::MergeNode" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Decision Node" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='DecisionNode']" extraMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::DecisionNode" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Connector" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='Connector']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::Connector" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="service:Connector_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditControlNode">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="OpenEmbeddedEditor" mappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='Connector'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='DecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='FlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='ForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='InitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubActivityFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDecisionNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubFlowFinalNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubForkNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubInitialNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubJoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubMergeNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='JoinNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='MergeNode']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ExternalJavaAction" name="OpenEmbeddedEditor" id="de.htw.activity.design.OpenEmbeddedEditor"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Object Node">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Object" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='Object']" extraMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::Object" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="service:Object_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Central Buffer Node" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='CentralBufferNode']" extraMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::CentralBufferNode" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="service:CentralBufferNode_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Data Store Node" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='DataStoreNode']" extraMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::DataStoreNode" referenceName="nodes">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="service:DataStoreNode_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditObjectNode">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="OpenEmbeddedEditor" mappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubCentralBufferNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubDataStoreNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='DataStoreNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='CentralBufferNode'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subNodeMappings[name='SubObject'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@nodeMappings[name='Object']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ExternalJavaAction" name="OpenEmbeddedEditor" id="de.htw.activity.design.OpenEmbeddedEditor"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Pin">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Input Pin" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']/@borderedNodeMappings[name='InputPin'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction']/@borderedNodeMappings[name='InputPin']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::InputPin" referenceName="input">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="service:InputPin_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Output Pin" nodeMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']/@borderedNodeMappings[name='OutputPin'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']/@subContainerMappings[name='SubAction']/@borderedNodeMappings[name='OutputPin']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::OutputPin" referenceName="output">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="qualifiedName" valueExpression="service:ActivityNode_generateDefaultQualifiedName()"/>
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="service:OutputPin_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditPin">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="OpenEmbeddedEditor" mappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']/@borderedNodeMappings[name='InputPin'] //@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']/@borderedNodeMappings[name='OutputPin']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ExternalJavaAction" name="OpenEmbeddedEditor" id="de.htw.activity.design.OpenEmbeddedEditor"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Group">
+          <ownedTools xsi:type="tool:ContainerCreationDescription" name="Interrupt Region" containerMappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:CreateInstance" typeName="activity::InterruptibleActivityRegion" referenceName="activityGroups">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="service:InterruptibleActivityRegion_generateDefaultName()"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DirectEditLabel" name="EditInterruptRegion">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="var:0"/>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DoubleClickDescription" name="OpenEmbeddedEditor" mappings="//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='InterruptibleActvityRegion']">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ExternalJavaAction" name="OpenEmbeddedEditor" id="de.htw.activity.design.OpenEmbeddedEditor"/>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="de.htw.activity.design.Services"/>
+  </ownedViewpoints>
+  <extensions xsi:type="properties:ViewExtensionDescription" name="Properties">
+    <categories name="Default Category">
+      <pages name="Properties" labelExpression="Properties" semanticCandidateExpression="var:self" groups="//@extensions.0/@categories.0/@groups.0 //@extensions.0/@categories.0/@groups.1 //@extensions.0/@categories.0/@groups.2"/>
+      <groups name="ActivityNodeGroup" labelExpression="Activity Node" domainClass="activity::ActivityNode" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:TextDescription" name=" NameText" labelExpression="Name" valueExpression="feature:Name">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self">
+              <subModelOperations xsi:type="tool_1:SetValue" featureName="Name" valueExpression="var:newValue"/>
+            </firstModelOperations>
+          </initialOperation>
+        </controls>
+      </groups>
+      <groups name="ActivityEdgeGroup" labelExpression="Activity Edge" domainClass="activity::ActivityEdge" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:TextDescription" name="NameText" labelExpression="Name" valueExpression="feature:Name">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+          </initialOperation>
+        </controls>
+      </groups>
+      <groups name="GroupGroup" labelExpression="Group" domainClass="activity::ActivityGroup" semanticCandidateExpression="var:self">
+        <controls xsi:type="properties:TextDescription" name="GroupText" labelExpression="Name" valueExpression="feature:Name">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:self"/>
+          </initialOperation>
+        </controls>
+      </groups>
+    </categories>
+  </extensions>
+</description:Group>

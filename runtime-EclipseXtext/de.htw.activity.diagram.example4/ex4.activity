@@ -1,0 +1,128 @@
+Activity {
+
+
+edges {
+		ControlFlow edge1 { 
+			target node11
+			source node1
+		} ,
+
+		ObjectFlow edge2 {
+			target node3
+			source node2
+		} ,
+
+		ObjectFlow edge3 {
+			target node4
+			source node3
+		} ,
+
+		ControlFlow edge4 {
+			target node5
+			source node4
+		} ,
+
+		ControlFlow edge5 {
+			target node6
+			source node5
+		} ,
+
+		ControlFlow edge6 {
+			target node7
+			source node6
+		} ,
+
+		ControlFlow edge7 {
+			target node8
+			source node7
+		} ,
+
+		ControlFlow edge8 {
+			target node10
+			source node9
+		} ,
+
+		ControlFlow edge9 {
+			target node10
+			source node8
+		}
+	}
+
+	nodes {
+		InitialNode node1 {
+			Name Start
+			outgoing ( edge1 )
+		},
+
+		Action node2 {
+			Name "Send Invoice"
+			incoming ( edge14 )
+			outgoing ( edge2 )
+		} ,
+
+		Object node3 {
+			Name Invoice
+			incoming ( edge2 )
+			outgoing ( edge3 )
+		} ,
+
+		Action node4 {
+			Name "Make Payment"
+			incoming ( edge3 )
+			outgoing ( edge4 )
+		} ,
+
+		Action node5 {
+			Name "Accept Payment"
+			incoming ( edge4 )
+			outgoing ( edge5 )
+		} ,
+
+		JoinNode node6 {
+			incoming ( edge15,edge5 )
+			outgoing ( edge6 )
+		} ,
+
+		DecisionNode node7 {
+			incoming ( edge6,edge16 )
+			outgoing ( edge7 )
+		} ,
+
+		Action node8 {
+			Name "Close Order"
+			incoming ( edge7 )
+			outgoing ( edge9 )
+		} ,
+
+		Action node9 {
+			Name "Cancel Order"
+			incoming ( edge17 )
+			outgoing ( edge8 )
+		} ,
+
+		ActivityFinalNode node10 {
+			Name End
+			incoming ( edge8,edge9 )
+		}
+	}
+	activityGroups { 
+		InterruptibleActivityRegion Region1 { 
+			edges { 
+				ControlFlow edge10 { target node12 source node11 } , 
+				ControlFlow edge11 { Name "[order accepted]" target node13 source node12 } , 
+				ControlFlow edge12 { target node14 source node13 } , 
+				ControlFlow edge13 { target node15 source node14 } , 
+				ControlFlow edge14 { target node9 source node16 } , 
+				ControlFlow edge15 { target node2 source node14 } , 
+				ControlFlow edge16 { target node7 source node12 } , 
+				ControlFlow edge17 { target node6 source node15 }
+			} nodes { 
+				Action node11 { Name "Receive Order" incoming ( edge1 ) outgoing ( edge10 ) } , 
+				MergeNode node12 { incoming ( edge10 ) outgoing ( edge11 , edge16 ) } , 
+				Action node13 { Name "Fill Order" incoming ( edge11 ) outgoing ( edge12 ) } , 
+				ForkNode node14 { incoming ( edge12 ) outgoing ( edge13 , edge14 ) } , 
+				Action node15 { Name "Ship Order" incoming ( edge13 ) outgoing ( edge15 ) } , 
+				AcceptEventAction node16 { Name "Order Cancel" outgoing ( edge17 ) }
+			}
+		}
+	} }

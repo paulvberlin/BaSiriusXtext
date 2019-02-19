@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:activity="http://www.example.org/activity" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_dtnt8A5aEemgNt0AkHcDJQ" selectedViews="_in9hAA5aEemgNt0AkHcDJQ" version="14.1.0.201810161215">
+    <semanticResources>ex1.activity</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_in9hAA5aEemgNt0AkHcDJQ">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/de.htw.activity.design/description/activity.odesign#//@ownedViewpoints[name='Activity']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_jTLBMA5aEemgNt0AkHcDJQ" name="example1" repPath="#_jSXI4A5aEemgNt0AkHcDJQ">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/de.htw.activity.design/description/activity.odesign#//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']"/>
+        <target xmi:type="activity:Activity" href="ex1.activity#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_jSXI4A5aEemgNt0AkHcDJQ" name="example1">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_jTBQMA5aEemgNt0AkHcDJQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_jTBQMQ5aEemgNt0AkHcDJQ"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_jTd8IA5aEemgNt0AkHcDJQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_jTd8IQ5aEemgNt0AkHcDJQ" type="Sirius" element="_jSXI4A5aEemgNt0AkHcDJQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_kqxGQA5aEemgNt0AkHcDJQ" type="2002" element="_kqjq4A5aEemgNt0AkHcDJQ">
+          <children xmi:type="notation:Node" xmi:id="_kq63QA5aEemgNt0AkHcDJQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_kq63QQ5aEemgNt0AkHcDJQ" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_kq63Qg5aEemgNt0AkHcDJQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_kq63Qw5aEemgNt0AkHcDJQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_kqxGQQ5aEemgNt0AkHcDJQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kqxGQg5aEemgNt0AkHcDJQ" x="10" y="215"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_n0jhsQ5aEemgNt0AkHcDJQ" type="2002" element="_n0aXwA5aEemgNt0AkHcDJQ">
+          <children xmi:type="notation:Node" xmi:id="_n0jhtA5aEemgNt0AkHcDJQ" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_n0jhtQ5aEemgNt0AkHcDJQ" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_n0jhtg5aEemgNt0AkHcDJQ"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_n0jhtw5aEemgNt0AkHcDJQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_n0jhsg5aEemgNt0AkHcDJQ" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0jhsw5aEemgNt0AkHcDJQ" x="195" y="215"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_jTd8Ig5aEemgNt0AkHcDJQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_qTiFkA5aEemgNt0AkHcDJQ" type="4001" element="_qTPxsA5aEemgNt0AkHcDJQ" source="_kqxGQA5aEemgNt0AkHcDJQ" target="_n0jhsQ5aEemgNt0AkHcDJQ">
+          <children xmi:type="notation:Node" xmi:id="_qTiFlA5aEemgNt0AkHcDJQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTiFlQ5aEemgNt0AkHcDJQ" x="13" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qTm-EA5aEemgNt0AkHcDJQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qTm-EQ5aEemgNt0AkHcDJQ" x="26" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_qToMMA5aEemgNt0AkHcDJQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qToMMQ5aEemgNt0AkHcDJQ" x="4" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_qTiFkQ5aEemgNt0AkHcDJQ" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_qTiFkg5aEemgNt0AkHcDJQ" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qTiFkw5aEemgNt0AkHcDJQ" points="[0, -1, -37, -1]$[37, -1, 0, -1]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTtEsA5aEemgNt0AkHcDJQ" id="(1.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qTtEsQ5aEemgNt0AkHcDJQ" id="(0.0,0.5)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_kqjq4A5aEemgNt0AkHcDJQ" name="Fill Order" outgoingEdges="_qTPxsA5aEemgNt0AkHcDJQ">
+      <target xmi:type="activity:Action" href="ex1.activity#//@nodes.0"/>
+      <semanticElements xmi:type="activity:Action" href="ex1.activity#//@nodes.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_kqjq4Q5aEemgNt0AkHcDJQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/de.htw.activity.design/description/activity.odesign#//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/de.htw.activity.design/description/activity.odesign#//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_n0aXwA5aEemgNt0AkHcDJQ" name="Ship Order" incomingEdges="_qTPxsA5aEemgNt0AkHcDJQ">
+      <target xmi:type="activity:Action" href="ex1.activity#//@nodes.1"/>
+      <semanticElements xmi:type="activity:Action" href="ex1.activity#//@nodes.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_n0aXwQ5aEemgNt0AkHcDJQ" labelSize="12" showIcon="false" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/de.htw.activity.design/description/activity.odesign#//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/de.htw.activity.design/description/activity.odesign#//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@containerMappings[name='Action']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_qTPxsA5aEemgNt0AkHcDJQ" sourceNode="_kqjq4A5aEemgNt0AkHcDJQ" targetNode="_n0aXwA5aEemgNt0AkHcDJQ">
+      <target xmi:type="activity:ControlFlow" href="ex1.activity#//@edges.0"/>
+      <semanticElements xmi:type="activity:ControlFlow" href="ex1.activity#//@edges.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qTPxsQ5aEemgNt0AkHcDJQ" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/de.htw.activity.design/description/activity.odesign#//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@edgeMappings[name='ControlFlow']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qTPxsg5aEemgNt0AkHcDJQ" labelSize="12" showIcon="false"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/de.htw.activity.design/description/activity.odesign#//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer/@edgeMappings[name='ControlFlow']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/de.htw.activity.design/description/activity.odesign#//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_jSg54A5aEemgNt0AkHcDJQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/de.htw.activity.design/description/activity.odesign#//@ownedViewpoints[name='Activity']/@ownedRepresentations[name='activity']/@defaultLayer"/>
+    <target xmi:type="activity:Activity" href="ex1.activity#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

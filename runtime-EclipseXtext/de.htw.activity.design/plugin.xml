@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+  <extension point="org.eclipse.sirius.componentization">
+    <component class="de.htw.activity.design.Activator"
+               id="de.htw.activity.design"
+	       name="activity">
+    </component>
+  </extension>
+  
+  <extension
+        point="org.eclipse.sirius.externalJavaAction">
+      <javaActions
+            actionClass="de.htw.activity.design.OpenEmbeddedEditor"
+            id="de.htw.activity.design.OpenEmbeddedEditor">
+      </javaActions>
+   </extension>
+</plugin>

@@ -1,0 +1,22 @@
+Activity {
+	edges {
+		ControlFlow edge1 {
+			Name ""
+			target node2
+			source node1
+		}
+		
+	}
+
+	nodes {
+		Action node1 {
+			Name "Fill Order"
+			outgoing ( edge1 )
+		},
+
+		Action node2 {
+			Name "Ship Order"
+			incoming ( edge1 )
+		}
+	}
+}

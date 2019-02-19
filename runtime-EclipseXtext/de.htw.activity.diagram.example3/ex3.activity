@@ -1,0 +1,30 @@
+Activity {
+	edges {
+		ObjectFlow edge1 { 
+			target node4
+			source node3
+		}
+	}
+
+	nodes {
+		Action node1 {
+			Name "Fill Order"
+			output {
+				OutputPin node3 {
+					Name Order
+					outgoing ( edge1 )
+				}
+			}
+		},
+
+		Action node2 {
+			Name "Ship Order"
+			input {
+				InputPin node4 {
+					Name Order
+					incoming ( edge1 )
+				}
+			} 
+		}
+	}
+}
